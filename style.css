@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header begins */
+.header {
+  height: 90px;
+  width: 100%;
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo h1 {
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.logo h1 span {
+  color: aqua;
+}
+
+.navbar {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Header ends */
+
+/* Hero starts */
+
+.hero {
+  height: calc(100vh - 90px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(pexels-kaique-rocha-775201.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.bold_hero {
+  font-weight: 900;
+}
+
+.thin_hero {
+  font-weight: 100;
+}
+
+.hero_button {
+  padding: 15px 35px;
+  text-transform: capitalize;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+}
+/* hero ends */
+
+.info {
+  height: 300px;
+  width: 100%;
+  padding: 0 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.info_items {
+  height: 90%;
+  width: 50%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.info_items h1 {
+  text-transform: uppercase;
+}
+
+.featured {
+  height: 500px;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.featuredTxt {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.featuredTxt h1 {
+  text-transform: uppercase;
+}
+
+.featuredImg {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuredImg img {
+  height: 350px;
+  width: 80%;
+}
+
+.content {
+  height: 400px;
+  width: 80%;
+  /* border: 2px solid red; */
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.content-left {
+  border: 2px solid gray;
+  height: 252px;
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5px; */
+}
+
+.content-leftTxt {
+  height: 250px;
+  width: 90%;
+  /* border: 2px solid gold; */
+  background-color: rgba(207, 202, 202, 0.452);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.content-leftTxt h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.content-leftTxt p {
+  text-transform: lowercase;
+}
+.content-leftTxt button {
+  width: 100px;
+  height: 30px;
+  color: blue;
+  border-color: blue;
+  border-radius: 5px;
+}
+
+.content-leftImg img {
+  height: 245px;
+  width: 100%;
+  /* border: 2px solid gold; */
+}
+
+.content-right {
+  border: 2px solid gray;
+  height: 252px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5px; */
+}
+
+.content-rightTxt {
+  height: 250px;
+  width: 90%;
+  /* border: 2px solid gold; */
+  background-color: rgba(207, 202, 202, 0.452);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.content-rightTxt h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.content-rightTxt p {
+  text-transform: lowercase;
+}
+.content-rightTxt button {
+  width: 100px;
+  height: 30px;
+  color: blue;
+  border-color: blue;
+  border-radius: 5px;
+}
+
+.content-rightImg img {
+  height: 245px;
+  width: 100%;
+  /* border: 2px solid gold; */
+}
+
+.Enough {
+  height: 280px;
+  width: 80%;
+  /* border: 2px solid red; */
+  margin: 10px auto;
+}
+
+.EnoughTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.EnoughTxt h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.EnoughTxt P {
+  text-transform: none;
+}
+
+.EnoughTxt button {
+  width: 140px;
+  height: 40px;
+  color: blue;
+  border-color: blue;
+  border-radius: 7px;
+  text-transform: capitalize;
+}
+
+.Footer {
+  width: 100%;
+  height: 200px;
+  /* border: 2px solid red; */
+  margin: 25px auto;
+  background-color: rgba(207, 202, 202, 0.452);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FooterTxt {
+  /* border: 2px solid blue; */
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FooterLeft {
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  gap: 10px;
+}
+.FooterLeft h4 {
+  text-decoration: none;
+  text-transform: none;
+}
+
+.FooterLeft h5 {
+  font-weight: 800;
+}
+
+.FooterLeft h5 span {
+  color: blue;
+  border-bottom: 1px solid gray;
+  text-transform: capitalize;
+}
+
+.FooterRight {
+  /* border: 2px solid orange; */
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.Company1 {
+  /* border: 2px solid blue; */
+  height: 100%;
+  width: 30%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Company1 h4 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.Company1 li {
+  list-style: none;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+.Company2 {
+  /* border: 2px solid blue; */
+  height: 100%;
+  width: 30%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Company2 h4 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.Company2 li {
+  list-style: none;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+
+.Company3 {
+  /* border: 2px solid blue; */
+  height: 100%;
+  width: 30%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Company3 h4 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.Company3 li {
+  list-style: none;
+  line-height: 25px;
+  text-transform: capitalize;
+}
